@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace StudentApp
 
@@ -12,6 +13,10 @@ namespace StudentApp
            // var c = (char) ('A' + rand.Next(0, 26));
             
                 //Console.WriteLine(c);
+                var array=new int [10];
+                
+                
+                
                 
                 Console.WriteLine("-----------------STUDENT REGISTRATION");
                 Console.Write("How many students do you want to register");
@@ -34,13 +39,13 @@ namespace StudentApp
                     var address = Console.ReadLine();
 
                     Console.Write("Choose your level");
-                    Console.Write("/t1. SS1");
-                    Console.Write("/t2. SS2");
-                    Console.Write("/t3. SS3");
+                    Console.Write("\t1. SS1");
+                    Console.Write("\t2. SS2");
+                    Console.Write("\t3. SS3");
                     var level = (Levels) int.Parse(Console.ReadLine());
 
                     Student student = new Student(firstName, lastName, email, phone, address, level);
-
+                    Student.Students.Add(student);
                     student.PrintRegistrationDetails();
                 }
                 

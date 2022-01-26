@@ -1,0 +1,16 @@
+C:\Users\HP\RiderProjects\classes\StudentApp\obj\Debug\net5.0\StudentApp.csproj.AssemblyReference.cache
+C:\Users\HP\RiderProjects\classes\StudentApp\obj\Debug\net5.0\StudentApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\RiderProjects\classes\StudentApp\obj\Debug\net5.0\StudentApp.AssemblyInfoInputs.cache
+C:\Users\HP\RiderProjects\classes\StudentApp\obj\Debug\net5.0\StudentApp.AssemblyInfo.cs
+C:\Users\HP\RiderProjects\classes\StudentApp\obj\Debug\net5.0\StudentApp.csproj.CoreCompileInputs.cache
+C:\Users\HP\RiderProjects\classes\StudentApp\bin\Debug\net5.0\StudentApp.exe
+C:\Users\HP\RiderProjects\classes\StudentApp\bin\Debug\net5.0\StudentApp.deps.json
+C:\Users\HP\RiderProjects\classes\StudentApp\bin\Debug\net5.0\StudentApp.runtimeconfig.json
+C:\Users\HP\RiderProjects\classes\StudentApp\bin\Debug\net5.0\StudentApp.runtimeconfig.dev.json
+C:\Users\HP\RiderProjects\classes\StudentApp\bin\Debug\net5.0\StudentApp.dll
+C:\Users\HP\RiderProjects\classes\StudentApp\bin\Debug\net5.0\ref\StudentApp.dll
+C:\Users\HP\RiderProjects\classes\StudentApp\bin\Debug\net5.0\StudentApp.pdb
+C:\Users\HP\RiderProjects\classes\StudentApp\obj\Debug\net5.0\StudentApp.dll
+C:\Users\HP\RiderProjects\classes\StudentApp\obj\Debug\net5.0\ref\StudentApp.dll
+C:\Users\HP\RiderProjects\classes\StudentApp\obj\Debug\net5.0\StudentApp.pdb
+C:\Users\HP\RiderProjects\classes\StudentApp\obj\Debug\net5.0\StudentApp.genruntimeconfig.cache

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace StudentApp
@@ -10,7 +11,7 @@ namespace StudentApp
 
         private static int _numberOfRegistration = 0;
 
-        private static Student[] _students = new Student[10];
+        public static List<Student> Students = new List<Student>();
         
      
         public Student(string firstName, string lastName, string email, string phone, string address, Levels studentLevel ):base(firstName, lastName, email, phone, address)
@@ -24,26 +25,27 @@ namespace StudentApp
 
         public void PrintRegistrationDetails()
         {
+            // Console.ForegroundColor = ConsoleColor.DarkCyan;
             Console.WriteLine($"Dear {FirstName},You are welcome to the Learning Space, Your Registration Number is {Registration}");
-            Console.ForegroundColor = ConsoleColor.DarkCyan;
+           
         }
 
         private string GetRegistrationNumber()
         {
-            return $"SD{_numberOfRegistration.ToString(format: "000")}";
+            return $"SD{_numberOfRegistration.ToString("000")}";
         }
 
         public void AddToStudent()
         {
-            _students[_numberOfRegistration] = this;
+            Students[_numberOfRegistration] = this;
         }
 
 
-        public void PrintStudents()
+        public static  void PrintStudents()
         {
-            for (var i = 0; i < _numberOfRegistration; i++)
+            for (var i = 0; i < Students.Count; i++)
             {
-                Console.WriteLine($"{i + 1}.{_students[i].Registration}- {_students[i].FirstName}");
+                Console.WriteLine($"{i + 1}.{Students[i].Registration}- {Students[i].FirstName}");
             }
 
         }
